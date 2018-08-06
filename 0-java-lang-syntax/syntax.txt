@@ -1,0 +1,236 @@
+
+---------------------------------------------------------
+
+1. data-types
+
+	- simple-types / primtives   ==> values
+	
+			==> 8 primitives
+			
+	- complex-types / references ==> objects
+	
+			==> class, interface , enum , annotation
+
+---------------------------------------------------------
+			
+a. java-project
+
+	
+	  proj
+	  |
+	  |
+	  |------ p1  ( .java/.class )
+	  |
+	  |
+	  |------ p2
+	  |	|
+	  | |----------p21
+	  
+
+---------------------------------------------------------
+
+2. Java file 
+
+
+   PublicType.java
+  --------------------------------------------
+  |	
+  |  // package declaration  (1)
+  |
+  |  // import statements ( n )
+  |
+  |
+  |  // public type ( class | interface | enum | annotation | )   ( 1 )
+  |
+  |  // default types ( n )
+  |
+  |--------------------------------------------
+	
+
+---------------------------------------------------------
+
+// 3. package declaration
+
+
+	why we need ?
+	
+	==> to group related files, to avoid type-name collisions
+	
+	
+	syntax:
+	
+		package root;
+		        root.sub1.sub2;
+		        
+	general guideline to define package declaration
+	
+	e.g
+	
+		Employee.java --> emp --> EM --> ibm --> com	
+		
+		package c-type.c-name.p-name.m-name;
+		package com.ibm.em.emp;        	
+	
+	
+---------------------------------------------------------	
+
+// 4. import statements
+
+	
+	proj
+	|
+	|--- p1 ( A.java , B.java )
+	|
+	|--- p2 ( C.java , D.java )
+	| |
+	| |------- p21 ( E.java )
+	|
+	|--- p3 ( E.java )
+	
+	
+	
+	e.g
+	
+	package p1;
+	import p2.D;
+	// or
+	import p2.*;
+	import p2.p21.*;
+	import p3.*;
+	public class A{
+		B b;
+		p2.C c;
+		D d;
+		p3.E e;
+	}
+	
+	
+---------------------------------------------------------
+5. Type syntax  
+---------------------------------------------------------
+
+
+a. class
+-----------------------------------
+
+	
+________	__________ class Name [extends] GeneralizedType             {
+[public]	[abstract]			  [implements] Interface1,Interface2..
+[      ]	[final]	  // state-def  ==> variables
+	        [strictfp]// constructor
+					  // methods     
+					  // inner-types
+----------------------					  
+[private]	[static]			
+[       ]
+[protected]				
+[        ]			
+			          }
+
+
+
+
+b. interface  
+-----------------------------------
+
+
+   __________  interface Name [extends] interface1,interface2{
+   [public  ]       
+   [        ]       	// constant-state ( public final )
+          				// abstract-behav ( public absract ) 
+          				
+          				// java 1.8
+          				
+          				// default methods  i.e method with impln
+          				// static methods
+          				
+          				// java 9
+          				
+          				// private methods
+          
+          			}
+
+
+// c. enum
+-----------------------------------
+
+==> to group related constants with type
+
+
+    enum Name [implements] interface1 {
+    
+    	// constant objects
+    	
+    	// properties
+    	
+    	// constructors
+    	
+    	// methods
+    	
+    	
+    }
+
+
+
+d.annotation
+-----------------------------------
+
+ ==> to describe java progamming elements to other programs
+ 
+ @interface Name{
+ 	// properties
+
+ }
+
+
+---------------------------------------------------------	
+
+
+// 5. variables
+
+
+class Employee{
+	static String tnrName;
+	int id;
+	String name;
+}
+
+	
+_________	 ________ Type varName=[value/object/function]
+[private]	 
+[	    ]    [static]
+[protected]	 [final]
+[      ]	 [transient]
+	         [volatile]
+	         
+	  local-var       
+------------------------	 
+-Nil-         [final]
+
+
+
+---------------------------------------------------------	
+
+6. methods  
+
+	
+________	___________ ReturnType methodName([args]) [throws] Exception {
+[private]	[static]	
+[       ]	[final ]	    // A,R,L and assignment logic
+[protected] [synchronized]	// Conditional logic
+[public  ]	[strictfp]	    // looping logic
+	        [asbtract]	    // invocation logic
+	        [native]
+		                 [return ][result]
+	}
+
+
+---------------------------------------------------------			
+
+
+	
+	
+	
+	
+				
+			
