@@ -1,0 +1,38 @@
+
+
+
+
+  New in java-8
+  --------------------
+  
+    - interfaces with default/static methods methods
+    - FP in java
+    - stream lib
+    
+    
+    
+  ------------------------------------------
+  
+  
+  Interface vs Abstract class
+  ---------------------------
+  
+  module-1
+  
+  
+  top-level    : interface   ( 100 % abstraction )
+  middle-level : abstract-class ( optional ) ( partial implementation )
+  bottom-level : concrete-class(s) ( complete implementation )
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+     

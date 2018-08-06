@@ -1,6 +1,7 @@
 package com.bank.service;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -84,15 +85,15 @@ public class TxnServiceIml implements TxnService {
 		// TODO
 		List<Txn> in = txnRepository.findAll(); // input
 
-		List<Txn> out = new ArrayList<Txn>();
-		for (Txn txn : in) {
-			double amount = txn.getAmount();
-//			if () {
-//				out.add(txn);
-//			}
-		}
+//		List<Txn> out = new ArrayList<Txn>();
+//		for (Txn txn : in) {
+//			double amount = txn.getAmount();
+////			if () {
+////				out.add(txn);
+////			}
+//		}
 
-		return out;
+		return TxnUtilLib.filter(in, txn->txn.getLocalDateTime().toLocalDate().equals(date));
 	}
 
 	@Override
