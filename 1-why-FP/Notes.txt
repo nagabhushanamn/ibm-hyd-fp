@@ -91,4 +91,117 @@
 
 
 
+How to write function in Java ?
+
+
+
+e.g
+
+//		TxnCondition txnCondition=new TxnCondition() {
+//			@Override
+//			public boolean test(Txn txn) {
+//				return txn.getAmount()==amount;
+//			}
+//		};
+
+			|
+			|
+			V
+
+
+//			var=public boolean test(Txn txn) {
+//				return txn.getAmount()==amount;
+//			}
+
+			|
+			|
+			|
+			V
+
+
+//			var=boolean test(Txn txn) {
+//				return txn.getAmount()==amount;
+//			}
+
+			|
+			|
+			|
+			V
+
+//			var=test(Txn txn) {
+//				return txn.getAmount()==amount;
+//			}
+
+
+            |
+			|
+			|
+			V
+
+
+//			var=(Txn txn) {
+//				return txn.getAmount()==amount;
+//			}
+
+
+
+            |
+			|
+			|
+			V
+
+
+//			var=(Txn txn) -> {
+//				return txn.getAmount()==amount;
+//			}
+
+  			|
+			|
+			|
+			V
+
+
+
+//			var=(txn) -> {
+//				return txn.getAmount()==amount;
+//			}
+
+
+          
+
+
+
+//			var=(txn) -> txn.getAmount()==amount;   
+
+            |
+			|
+			|
+			V
+
+
+//	TxnCondition var=txn-> txn.getAmount()==amount;     function-in-java / Lambda expression
+
+
+
+
+
+//---------------------------------------------------------------
+
+
+why i should use ud=se Functional programming in java ?
+
+
+  ==> to write clean & concise code
+  
+      i.e we can sepearate what & how logic in clean way
+      
+      that brings 'declarative style' code instead imperative-style
+
+
+
+//---------------------------------------------------------------
+
+
+
+
 

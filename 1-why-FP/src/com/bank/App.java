@@ -30,9 +30,11 @@ public class App {
 		//txrService.txr(200, "3", "4");
 		//------------------------------------------------------------
 		
-		List<Txn> txns1=txnService.getTxns(1000);
+		List<Txn> result=txnService.getTxns(3000);
+		for(Txn txn:result) {
+			System.out.println(txn);
+		}
 		
-		List<Txn> txns2=txnService.getTxns(1000,2000);
 
 		// destroy
 		// ..
