@@ -19,6 +19,7 @@ public class Ex3 {
 		list.add("nveg");
 		list.add("veg");
 
+		//----------------------------------------------------------------------------------
 		// imperative style ( what + how )
 
 //		Iterator<String> iterator = list.iterator();
@@ -29,12 +30,16 @@ public class Ex3 {
 //		}
 //
 //		System.out.println(list);
+		
+		//----------------------------------------------------------------------------------
 
 		// declerative/function style ( what )
 
 		list.removeIf(item -> item.equals("nveg"));
 		System.out.println(list);
 
+		
+		//----------------------------------------------------------------------------------
 	}
 
 }
