@@ -2,6 +2,8 @@ package com.examples;
 
 import java.util.ArrayList;
 
+// Interfaces got boost
+
 interface Scalable {
 	// implicitly public static final
 	double DEFAULT_SCALE = 1.0;

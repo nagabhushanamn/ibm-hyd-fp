@@ -5,6 +5,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.function.Predicate;
 
+// why FP
+
 public class Ex3 {
 
 	public static void main(String[] args) {

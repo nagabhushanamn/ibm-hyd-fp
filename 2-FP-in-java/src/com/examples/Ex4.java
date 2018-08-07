@@ -3,7 +3,7 @@ package com.examples;
 import java.util.Comparator;
 
 /*
- * java-8 : interfaces
+ * java-8 : interfaces got boost
  * 
  *  - default methods
  *  - static methods
