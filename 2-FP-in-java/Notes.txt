@@ -27,6 +27,43 @@
   
   
   
+  ------------------------------------------
+  
+  
+  summary
+  
+  	=> in java, we can make function using lambda-expression
+  	=> type of lambda expression is 'Functional Interface'
+  	=> 'Function Interface' i.e any interface with single abstract method ( sam )
+  
+
+  	why FP ?
+  	
+  		=> we can write clean & concise code
+  
+  ------------------------------------------
+  
+  
+  built-in functional interfaces ( 40 + )
+  
+  ==> java.util.function.* ;
+  
+  
+  -------------------------------------------
+  	
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
