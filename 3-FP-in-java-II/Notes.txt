@@ -33,18 +33,16 @@ even after the parent function has closed.
 
 ----------------------------------------------------  
 
-
   anonymous-inner-class vs Lambda
   
-  
-  
+ 
   	anonymous-inner-class
   	
-  				==> .class file
+  		==> new .class file
   				
     LE
     
-    			=> no class				
+    	=> no class 		
   
 
 ----------------------------------------------------  

@@ -2,6 +2,8 @@ package com.examples;
 
 import java.util.function.Consumer;
 
+// Variable capture
+
 class Xyz {
 
 	static int staVar = 1;
