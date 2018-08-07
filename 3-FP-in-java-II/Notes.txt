@@ -1,0 +1,70 @@
+
+
+
+
+
+----------------------------------------------------
+
+First Class Functions 
+
+    - A function can be stored in a variable or value
+    - A parameter of a function can be a function
+    - The return value of a function can be a function
+    
+----------------------------------------------------  
+
+Variable capture in Lambda-expression
+
+	=> can access enclosing class variable
+	=> can access enclosing instance variable
+	=> can access final static local variable
+	
+
+----------------------------------------------------  
+    
+        
+closures
+----------
+
+A closure is a function having access to the parent scope, 
+even after the parent function has closed.
+
+
+
+----------------------------------------------------  
+
+
+  anonymous-inner-class vs Lambda
+  
+  
+  
+  	anonymous-inner-class
+  	
+  				==> .class file
+  				
+    LE
+    
+    			=> no class				
+  
+
+----------------------------------------------------  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	        
+        
+        
