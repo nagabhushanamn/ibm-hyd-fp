@@ -50,7 +50,20 @@ even after the parent function has closed.
 
 
 
+Method-Reference ( MR )
+--------------------------
 
+
+   => function-pointer in java-language
+   
+   why we need ?
+   
+   ==> alternative syntax for Lambda-expression 
+       when lambda just invoking any existing methods
+
+   ==> we can re-use existing methods in FP in easy way
+   
+   
 
 
 

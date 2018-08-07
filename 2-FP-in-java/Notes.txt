@@ -8,9 +8,6 @@
     - interfaces with default/static methods methods
     - FP in java
     - stream lib
-    
-    
-    
   ------------------------------------------
   
   
