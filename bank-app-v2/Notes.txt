@@ -1,0 +1,51 @@
+
+
+
+
+
+back-end-developer
+-------------------
+
+--------------------------------------------------------------------	
+ Model
+--------------------------------------------------------------------		
+	layer(s)
+	
+	 a. data/repository layer   ==> persisting logic
+	 
+	     - AccountRepsitory 
+	     
+	 b. business/service layer  ==> processing logic
+	
+		- TxrService      
+	
+	 c. web-layer  		        ==> request & response logic  (without UI => rest-api )
+		  
+		- TxrController 
+		  
+--------------------------------------------------------------------	
+
+S.O.L.I.D. STANDS FOR:
+
+S — Single responsibility principle
+O — Open closed principle
+L — Liskov substitution principle
+I — Interface segregation principle
+D — Dependency Inversion principle
+
+--------------------------------------------------------------------	
+
+OO patterns
+
+--------------------------------------------------------------------
+
+
+
+
+
+
+
+
+	  
+		  
+	      
