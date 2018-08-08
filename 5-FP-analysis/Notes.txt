@@ -1,0 +1,26 @@
+
+
+
+
+ advantages of functional-programming
+ ----------------------------------------
+ 
+ 
+ ==> we can separate what-logic ( part of appln ) from how-logic ( part of lib )
+ 
+     i.e we can clean & concise code
+     
+ ==>  with state-less function, computation can be parallel  
+ 
+ 	 i.e same-input ==> same-output
+ 	 
+ ==> we can enable lazy computations when required
+
+    
+     when to use FP ?
+     
+     	=> data-in  & data-out logic code
+     	
+-----------------------------------------------     	
+     
+     	 	  
